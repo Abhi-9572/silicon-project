@@ -16,9 +16,10 @@ const Footer = () => {
         </form>
         </div>
         <div id='footerCopyRight'>
-          <span>All right  Made with </span>
+        <i class="fa-solid fa-copyright"></i>
+          <span> All rights reserved. Made with  </span>
           <span class="fa-solid fa-heart"></span>
-          <span>made by me</span>
+          <span>  by Abhishek</span>
         </div>
     </div> 
   )

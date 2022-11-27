@@ -6,9 +6,14 @@ const Navbar = () => {
    <div id='navbar'>
       <div id='navbarimg'>
       <img  src={image}/>
-      <h2>Silicon</h2> 
+      <h2>Silicon</h2>
+      
+      {/* <i class="fa-solid fa-bars"></i>
+      <i class="fa-regular fa-bars"></i> */}
       </div>
+      
       <div id='navbarmiddle'>
+      
       <div class="dropdown">
             <button class="dropbtn">Loadings
             <i class="fa-sharp fa-solid fa-caret-down"></i></button>
@@ -38,24 +43,11 @@ const Navbar = () => {
       </div>
       <div class="dropdown">
             <button class="dropbtn">Support</button>
-            
       </div>
       <div class="dropdown">
             <button class="dropbtn">Docs</button>
-            
       </div>
-
-
-
-        {/* <a>Loadings</a>
-        <i class="fa-thin fa-caret-down"></i>
-        <a>pages</a>
-        <i class="fa-thin fa-caret-down"></i>
-        <a>Portfolio</a>
-        <i class="fa-thin fa-caret-down"></i>
-        <a>Support</a>
-        <a>Docs</a> */}
-      </div>
+  </div>
       <div id='navbarmode'>
         <p>Light</p>
           <div>
@@ -66,10 +58,14 @@ const Navbar = () => {
           </div>
          <p>Dark</p>
       </div>
-      <div id='buybtn'>
-      <i class="fa-solid fa-cart-shopping"></i>
-      <button>Buy Now</button>
-      </div>
+      
+      
+      <button id='buybtn'><i class="fa-solid fa-cart-shopping"></i>    Buy Now</button>
+          <input type="checkbox" id="click"/>
+      <label for="click" className="menubar">
+     <i class="fa-sharp fa-solid fa-bars"></i>
+     </label> 
+         
    </div>
   )
 }
