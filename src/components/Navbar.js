@@ -61,10 +61,10 @@ const Navbar = () => {
       
       
       <button id='buybtn'><i class="fa-solid fa-cart-shopping"></i>    Buy Now</button>
-          <input type="checkbox" id="click"/>
+          {/* <input type="checkbox" id="click"/>
       <label for="click" className="menubar">
      <i class="fa-sharp fa-solid fa-bars"></i>
-     </label> 
+     </label>  */}
          
    </div>
   )
