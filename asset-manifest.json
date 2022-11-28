@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/silicon-project/static/css/main.384d9111.css",
+    "main.js": "/silicon-project/static/js/main.1c6da95f.js",
+    "static/js/787.7cf29004.chunk.js": "/silicon-project/static/js/787.7cf29004.chunk.js",
+    "static/media/app-showcase5.jpg": "/silicon-project/static/media/app-showcase5.65247f77ae38b77cf432.jpg",
+    "static/media/app-showcase6.jpg": "/silicon-project/static/media/app-showcase6.4111db9d95753d7493e7.jpg",
+    "static/media/app-showcase4.jpg": "/silicon-project/static/media/app-showcase4.f41fff6ed1d11d553f60.jpg",
+    "static/media/app-showcase8.jpg": "/silicon-project/static/media/app-showcase8.701a384507754c1122c8.jpg",
+    "static/media/app-showcase7.jpg": "/silicon-project/static/media/app-showcase7.14a6325add7c2763251e.jpg",
+    "static/media/app-showcase2.jpg": "/silicon-project/static/media/app-showcase2.a6452059df726a2cdecc.jpg",
+    "static/media/app-showcase9.jpg": "/silicon-project/static/media/app-showcase9.ea2fe2420c1f2a210fae.jpg",
+    "static/media/app-showcase1.jpg": "/silicon-project/static/media/app-showcase1.55ec4d6a66758eb9cf73.jpg",
+    "static/media/app-showcase3.jpg": "/silicon-project/static/media/app-showcase3.2b87357d2a030f49ff2e.jpg",
+    "static/media/image2.svg": "/silicon-project/static/media/image2.5f28717dd1dd23363b61137d2f44f376.svg",
+    "static/media/image3.svg": "/silicon-project/static/media/image3.0a4a181c83464894ddb36b3f8b55805c.svg",
+    "static/media/market.svg": "/silicon-project/static/media/market.f6121fbbfec25dbc851a3e5aea13c8ad.svg",
+    "static/media/image4.svg": "/silicon-project/static/media/image4.bb04b5244d1e9f43f802b01760c484d2.svg",
+    "static/media/image.svg": "/silicon-project/static/media/image.1f7b790e9d756d03c39a9cf1bc66e1d8.svg",
+    "static/media/siliconIcon.svg": "/silicon-project/static/media/siliconIcon.02b417b6a6c2127a85d6d121d1c94654.svg",
+    "index.html": "/silicon-project/index.html",
+    "static/media/logo.svg": "/silicon-project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/feature4.svg": "/silicon-project/static/media/feature4.80118fe1281a0c4cb6471c3bef69ea03.svg",
+    "main.384d9111.css.map": "/silicon-project/static/css/main.384d9111.css.map",
+    "main.1c6da95f.js.map": "/silicon-project/static/js/main.1c6da95f.js.map",
+    "787.7cf29004.chunk.js.map": "/silicon-project/static/js/787.7cf29004.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.384d9111.css",
+    "static/js/main.1c6da95f.js"
+  ]
+}
