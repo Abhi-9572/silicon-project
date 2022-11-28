@@ -8,7 +8,9 @@ import Feature from './components/Feature';
 import Footer from './components/Footer';
 import Carousel from './components/Carousel';
 import NavRes from './components/NavRes';
-import CaraousalTest from './components/CaraousalTest';
+import Home from './components/Home';
+
+
 // import ShowNav from './components/ShowNav';
 
 function App() {
@@ -19,15 +21,19 @@ function App() {
       <Header/>
       <NavRes/>
       </div>
-     
-      <FramerMotion/>
+      <Home/>
+      {/* <FramerMotion/> */}
       <Carousel/>
       <LandingPages/>
       <Feature/>
       <hr/>
       <Footer/> 
-      {/* <CaraousalTest/> */}
+     
 </div>
+
+
+
+
 
       
     
