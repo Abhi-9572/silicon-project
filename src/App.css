@@ -275,34 +275,40 @@
 .cardsFeature{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 50px;
+    row-gap: 100px;
     margin-bottom: 100px;
     margin-left: 40px;
 }
 
 .cardFeature{
-  height: 15rem;
+  /* height: rem; */
   width: 18rem;
  }
+ .card-title{
+  padding: 15px;
+ }
  .card-text{
- 
+  padding: 15px;
   color: #585C7B !important;
  }
  
 .cardFeature:hover{
+  /* border: 5px solid blue; */
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   margin-top: -3px;
 }
-.cardFeature:hover{
+/* .cardFeature:hover{
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   
-}
+} */
 .cardFeature>img{
+  margin: 25px;
   background-color: rgb(134, 134, 143,0.1);
+  border-radius: 10px;
   padding: 15px;
   
 }
@@ -566,8 +572,6 @@ input:checked + .slider:before {
   
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* margin-left: 100px;
-    margin-right: 100px; */
    }
  
 
@@ -577,10 +581,17 @@ input:checked + .slider:before {
   .Landingcards{
   
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     /* margin-left: 100px;
     margin-right: 100px; */
    }
+
+   .cardsFeature{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    transform: scale(0.8);
+    
+  }
 }
 
 

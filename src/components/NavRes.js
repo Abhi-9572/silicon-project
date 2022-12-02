@@ -9,6 +9,7 @@ import Portfolio from './DropDowns/Portfolio';
 import { useState } from 'react';
 import Pages from './DropDowns/Pages';
 import Landings from './DropDowns/Landings';
+import { scopedCssBaselineClasses } from '@mui/material';
 
 function NavRes() {
 
@@ -56,27 +57,27 @@ function NavRes() {
             </div>
             <div className="offcanvas-body">
               <ul  id="menu-landings" className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li onMouseOver={handleMouseOverland} onMouseOut={handleMouseOutland} id="menu-item-4790" className="dropdown nav-item menu-item-4790"><a title="Landings" href="#" className="dropdown-toggle  nav-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="menu-item-dropdown-4790" data-bs-auto-close="false">Landings</a>
+                <li onMouseOver={handleMouseOverland} onMouseOut={handleMouseOutland} id="menu-item-4790" className="dropdown nav-item menu-item-4790"><a title="Landings" href="#" className="dropdown-toggle  nav-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="menu-item-dropdown-4790" data-bs-auto-close="false" style={{color:"black",fontSize:"18px",fontWeight:"500",opacity:"0.6"}}>Landings</a>
               {isHoveringland && (
           <div className='landingDropdown'><Landings/></div>
         )}
                 </li>
-                <li onMouseOver={handleMouseOverpage} onMouseOut={handleMouseOutpage} id="menu-item-4825" className="dropdown nav-item menu-item-4825"><a title="Pages" href="#" className="dropdown-toggle  nav-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="menu-item-dropdown-4825" data-bs-auto-close="false">Pages</a>
+                <li onMouseOver={handleMouseOverpage} onMouseOut={handleMouseOutpage} id="menu-item-4825" className="dropdown nav-item menu-item-4825"><a title="Pages" href="#" className="dropdown-toggle  nav-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="menu-item-dropdown-4825" data-bs-auto-close="false" style={{color:"black",fontSize:"18px",fontWeight:"500",opacity:"0.6"}}>Pages</a>
                 {isHoveringpage && (
           <div className='pageDropdown'><Pages/></div>
         )}
                 </li>
-                <li onMouseOver={handleMouseOverport} onMouseOut={handleMouseOutport} id="menu-item-8010" className="dropdown nav-item menu-item-8010"><a title="Portfolio" href="#" className="dropdown-toggle  nav-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="menu-item-dropdown-8010" data-bs-auto-close="false">Portfolio</a>
+                <li onMouseOver={handleMouseOverport} onMouseOut={handleMouseOutport} id="menu-item-8010" className="dropdown nav-item menu-item-8010"><a title="Portfolio" href="#" className="dropdown-toggle  nav-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="menu-item-dropdown-8010" data-bs-auto-close="false" style={{color:"black",fontSize:"18px",fontWeight:"500",opacity:"0.6"}}>Portfolio</a>
                   {/* <div className='portfolioDreopdown'><Portfolio/></div> */}
                   {isHoveringport && (
           <div className='portfolioDreopdown'><Portfolio/></div>
         )}
                 </li>
-                <li id="menu-item-9872" className="nav-item menu-item-9872"><a title="Support" target="_blank" href="https://themeforest.net/user/madrasthemes" className=" nav-link">Support</a></li>
-                <li id="menu-item-9873" className="nav-item menu-item-9873"><a title="Docs" target="_blank" href="https://docs.madrasthemes.com/silicon/" className=" nav-link">Docs</a></li>
+                <li id="menu-item-9872" className="nav-item menu-item-9872"><a title="Support" target="_blank" href="https://themeforest.net/user/madrasthemes" className=" nav-link" style={{color:"black",fontSize:"18px",fontWeight:"500",opacity:"0.6"}}>Support</a></li>
+                <li id="menu-item-9873" className="nav-item menu-item-9873"><a title="Docs" target="_blank" href="https://docs.madrasthemes.com/silicon/" className=" nav-link" style={{color:"black",fontSize:"18px",fontWeight:"500",opacity:"0.6"}}>Docs</a></li>
               </ul>			</div>
-            <div className="offcanvas-footer border-top">
-              <a href="https://silicon.madrasthemes.com/contacts-v1/" className="sn-header-button btn btn-primary btn-sm rounded fs-sm w-100">
+            <div >
+              <a  className="sn-header-button btn btn-primary btn-sm rounded fs-sm w-100">
                 <i className="bx  bx-cart fs-4 lh-1 me-1" />&nbsp;Buy now			</a>
             </div>      
           </div>
@@ -94,7 +95,7 @@ function NavRes() {
           <button type="button" className="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon" /></button>
           <a  className="sn-header-button btn btn-primary btn-sm rounded fs-sm d-none d-lg-inline-flex">
             <i className="bx  bx-cart fs-5 lh-1 me-1" /> <div id='buybtnres' ><i class="fa-solid fa-cart-shopping"></i>Buy now	</div> 		</a>
-             {/* <button id='buybtn'><i class="fa-solid fa-cart-shopping"></i>    Buy Now</button> */}
+            
         </div>
       </header>
   );

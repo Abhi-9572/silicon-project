@@ -11,7 +11,6 @@ import NavRes from './components/NavRes';
 import Home from './components/Home';
 
 
-// import ShowNav from './components/ShowNav';
 
 function App() {
   return (
@@ -23,11 +22,11 @@ function App() {
       </div>
       <Home/>
       {/* <FramerMotion/> */}
-      <Carousel/>
+       <Carousel/>
       <LandingPages/>
       <Feature/>
       <hr/>
-      <Footer/> 
+      <Footer/>  
      
 </div>
 
