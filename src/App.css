@@ -159,7 +159,7 @@
 #leftFrameMotion>img{
   /* border: 2px solid rgb(94, 29, 225);
   width: 100%; */
-  width: 50%;
+  width: 40%;
   margin-left: 12px;
 }
 #leftFrameMotion>div>p{
@@ -227,6 +227,7 @@
 }
 
 .landinhHeader{
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -236,8 +237,6 @@
   
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* margin-left: 100px;
-  margin-right: 100px; */
  }
 
 

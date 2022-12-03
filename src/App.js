@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Carousel from './components/Carousel';
 import NavRes from './components/NavRes';
 import Home from './components/Home';
+import Swipe from './components/Swiper';
 
 
 
@@ -22,12 +23,14 @@ function App() {
       </div>
       <Home/>
       {/* <FramerMotion/> */}
-       <Carousel/>
+       {/* <Carousel/> */}
+       <Swipe/>
       <LandingPages/>
       <Feature/>
       <hr/>
-      <Footer/>  
-     
+      <Footer/>   
+
+          
 </div>
 
 
